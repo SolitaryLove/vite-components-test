@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* 涟漪效果 */
+button span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple .7s linear;
+    background: rgba(255,255,255,.7);
+}
+@keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
