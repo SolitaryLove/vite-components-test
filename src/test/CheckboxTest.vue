@@ -8,4 +8,5 @@ import { ref } from 'vue';
 let checkState = ref(false);
 
 </script>
-<style scoped></style>
+<style scoped>
+</style>

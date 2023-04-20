@@ -8,8 +8,7 @@
 </template>
 
 <script setup lang='ts'>
-import { computed } from 'vue';
-import { useVModel } from '@/utils/useVModel';
+import { useVModel } from '@/hooks/useVModel';
 const props = defineProps({
     modelValue: {
         type: Boolean,
@@ -34,6 +33,11 @@ const checkedState = useVModel(props, 'modelValue', emit);
 
 </script>
 <style scoped>
+#container{
+    position: relative;
+    width: 80px;
+    height: 40px;
+}
 .container input[type="checkbox"] {
     visibility: hidden;
     display: none;
@@ -86,7 +90,7 @@ const checkedState = useVModel(props, 'modelValue', emit);
 }
 
 .sun {
-    background-color: #ddd;
+    /* background-color: #ddd; */
 }
 
 .moon {
