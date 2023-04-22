@@ -10,7 +10,7 @@
 button {
     width:130px;
     line-height:50px;
-    margin: 100px;
+    margin: 10px;
     border: none;
     outline: none;
     background: rebeccapurple;

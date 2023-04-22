@@ -22,7 +22,7 @@ const emit = defineEmits(['click']);
 </script>
 <style scoped>
 .my-button {
-  margin: 100px;
+  margin: 10px;
   border: none;
   outline: none;
   background: #fff;
